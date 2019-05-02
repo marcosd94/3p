@@ -1,7 +1,7 @@
 {
-  "name": "personal-tres-p",
-  "short_name": "personal-tres-p",
-  "theme_color": "#1976d2",
+  "name": "Personal 3P",
+  "short_name": "Personal3p",
+  "theme_color": "#2d2d2f",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
