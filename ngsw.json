@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1556889645905,
+  "timestamp": 1556895509476,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -50,17 +50,41 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/servicios3p",
+        "\\/3prest"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "version": 1
+    },
+    {
+      "name": "api-freshness",
+      "patterns": [
+        "\\/servicios3p",
+        "\\/3prest"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
   "hashTable": {
-    "/assets/icons/logo-3p-1024x1024.png": "5c0e1ff962dc46306cfd32656ae624c4d3ff0482",
-    "/assets/icons/logo-3p-128x128.png": "f80688b3fb2b53a4bb68572a4b51a9b9deca1a6f",
-    "/assets/icons/logo-3p-144x144.png": "c0f334f688f627d4abd3b8fecd06d553e23a3348",
-    "/assets/icons/logo-3p-152x152.png": "eb48e2aa8b975499a843d65b4f96d403c878305d",
-    "/assets/icons/logo-3p-192x192.png": "1d692bd028eef2a1444bcdbe451cea7353dadc43",
-    "/assets/icons/logo-3p-384x384.png": "d7c532a5331ab5585c9f8368ddc6eb42983cc9fb",
-    "/assets/icons/logo-3p-512x512.png": "5dc4bb31771b38fb107c4e307423dda7e34a12d2",
-    "/assets/icons/logo-3p-72x72.png": "1b66806fce8285fc9f1ef31dff49f586b2840a9c",
-    "/assets/icons/logo-3p-96x96.png": "045583b7e1da45c486aceeb5f55286e92ab49a0f",
+    "/assets/icons/logo-3p-1024x1024.png": "5912572b13e604661d3b060df736ce2cbc941700",
+    "/assets/icons/logo-3p-128x128.png": "25a69d1119d85ff41e72af61f609b9503e894b6d",
+    "/assets/icons/logo-3p-144x144.png": "fb90a3e6f68098c9e791b181641827a789e3fb05",
+    "/assets/icons/logo-3p-152x152.png": "bf48f6f8208b65740a55da6fa96bcbdad885352d",
+    "/assets/icons/logo-3p-192x192.png": "2d75af16c28a441f5957ac3d37d1bbcf37307662",
+    "/assets/icons/logo-3p-384x384.png": "58cfc49d545ffe83af84ea3572c5186360e29ba2",
+    "/assets/icons/logo-3p-512x512.png": "a291243083e3640772bf4aa16972c9e542a2ab5c",
+    "/assets/icons/logo-3p-72x72.png": "20417feae81bc36585b1bfe7e0e72e90f275a718",
+    "/assets/icons/logo-3p-96x96.png": "dc5620e6a24b819a21bdaa726248b47981deafad",
     "/assets/images/back.jpg": "8a88973deb06fc5ec4129df1d83983158d75fddb",
     "/assets/images/cabecera.png": "20aa5fe9373559123ec6a2cf0ce461bc769d9d17",
     "/assets/images/logo_flow.png": "61612c1e6306757c02c1333f88cf8c4620ba639d",
