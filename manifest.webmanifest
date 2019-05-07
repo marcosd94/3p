@@ -4,8 +4,8 @@
   "theme_color": "#2d2d2f",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "./index.html?utm_source=web_app_manifest",
+  "scope": "./",
+  "start_url": "./",
   "icons": [
     {
       "src": "assets/icons/logo-3p-72x72.png",
