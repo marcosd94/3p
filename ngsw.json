@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1557264435124,
+  "timestamp": 1557328939628,
   "index": "/3p/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/3p/es2015-polyfills.1e04665e16f944715fd2.js",
         "/3p/favicon.ico",
         "/3p/index.html",
-        "/3p/main.e86f0dff994d9b3aacc8.js",
+        "/3p/main.c8b2e38f8f28d696ce12.js",
         "/3p/polyfills.8bbb231b43165d65d357.js",
         "/3p/runtime.26209474bfa8dc87a77c.js",
         "/3p/styles.6e4cb8067076c2a2d038.css"
@@ -23,6 +23,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/3p/assets/files/combinaciones-cotizador.csv",
         "/3p/assets/icons/logo-3p-1024x1024.png",
         "/3p/assets/icons/logo-3p-128x128.png",
         "/3p/assets/icons/logo-3p-144x144.png",
@@ -76,6 +77,7 @@
     }
   ],
   "hashTable": {
+    "/3p/assets/files/combinaciones-cotizador.csv": "3d8c58513adf240faf151a386b96ac744ce4e9c7",
     "/3p/assets/icons/logo-3p-1024x1024.png": "5912572b13e604661d3b060df736ce2cbc941700",
     "/3p/assets/icons/logo-3p-128x128.png": "25a69d1119d85ff41e72af61f609b9503e894b6d",
     "/3p/assets/icons/logo-3p-144x144.png": "fb90a3e6f68098c9e791b181641827a789e3fb05",
@@ -100,9 +102,9 @@
     "/3p/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
     "/3p/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "/3p/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "/3p/index.html": "6bfbcc3a216e2db5c8a55d86030d28628f8ecb0e",
+    "/3p/index.html": "b6f4ff4ae61dd234af5eec3ea5d5ff12f7849806",
     "/3p/logo_flow.3ce2135186b063855927.png": "61612c1e6306757c02c1333f88cf8c4620ba639d",
-    "/3p/main.e86f0dff994d9b3aacc8.js": "1008a2e5fff42aa6a51ec3cf46d547a42436ded2",
+    "/3p/main.c8b2e38f8f28d696ce12.js": "f3aa26f11fad045ec69547396779e03aebef14b5",
     "/3p/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/3p/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/3p/styles.6e4cb8067076c2a2d038.css": "04f9f245981cb704126f8dcf88b093770bef0f8c"
