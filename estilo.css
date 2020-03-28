@@ -11,7 +11,8 @@ body {
 }
 
 .cabecera {
-	background-image: url("fondo.jpg");
+	/* background-image: url("fondo.jpg"); */
+	background-image: url("https://assets.ipzmarketing.com/data/0b3f67d0a8b67b20a102b6abe3d25d9aacd38e0b/media_files/99/original/fondo.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
